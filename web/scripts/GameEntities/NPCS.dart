@@ -150,22 +150,22 @@ class Carapace extends NPC {
 
 class Leprechaun extends NPC {
     //all names relate at least tangentially to their number
-    static List<String> oneNames  = <String>["Itchy","Partridge","Ridge","Lonely","Yuno","Ace","Jan","Yan"];
-    static List<String> twoNames  = <String>["Doze","Wei","Turtle","Dove","Matrix","Bull","Hands","Tan"];
-    static List<String> threeNames  = <String>["Trace","Tree","Henry","Frenchie","Link","Hattrick","Charm","Tethera"];
-    static List<String> fourNames  = <String>["Clover"];
-    static List<String> fiveNames  = <String>["Fin","Rings","Goldboy","Plato","Sense","Byron","Johnny","Pimp"];
-    static List<String> sixNames  = <String>["Die","Sez","Goose","Buzz","Juan","Seraph","Diamond","Sethera"];
-    static List<String> sevenNames  = <String>["Crowbar"];
-    static List<String> eightNames  = <String>["Snowman"];
-    static List<String> nineNames  = <String>["Stitch","Nein","Lady","Dancer","Dragon","Muse","Cat","Dickory"];
-    static List<String> tenNames  = <String>["Sawbuck","Diaz","Hamilton","Alexander","Leaper","Fingers","Neon","Dock"];
-    static List<String> elevenNames  = <String>["Matchsticks","Amp","Piper","Rep","Salt","Rocket","Duck","Yan-a-dik"];
-    static List<String> twelveNames  = <String>["Eggs","Dozer","Drummer","Killer","Magnum","Nerve","Solar","Tan-a-dik"];
-    static List<String> thirteenNames  = <String>["Biscuits","Bakers","Jason","Curse","Emirp","Archimedes","Luna","Tethera-dik"];
-    static List<String> fourteenNames  = <String>["Quarters","Chef","Shakespear","Cyber","Babylon","Osirus","Fortress","Pethera-dik"];
-    static List<String> fifteenNames  = <String>["Cans","Pho","Quiche","Bonita","Mystic","Salute","Mandarin","Bumfit"];
-    static List<String> infinityNames  = <String>["Flowers","Soy","Wasabi","Spot","Fido","Slasher","Paints","Researcher","Librarian","The House","Snake Eyes","Eyepatch","Shanks","Machette","Gums","Nose","Max","Mad","Wedge","Biggs","Big Daddy","Coins","Shadow","Undertaker","Numbers","Jalapeno","Hard","Cocktail","Sriracha","Kerburn","Sour","Doc","Hirohito","Barbeque","Tojo","Szechuan","Kestik","Sweet","Ketchup","Catsup"];
+    static List<String> oneNames  = <String>["Itchy","Partridge","Ridge","Lonely","Yuno","Ace","Jan","Yan","Uniqua","1-Up","Mario","Sawbones","Goldie","Washington","Penny","Hydro","Magus"];
+    static List<String> twoNames  = <String>["Doze","Wei","Turtledove","Matrix","Bull","Hands","Tan","Snake Eyes","Luigi","Silver","Twain","Knee","Trucks","Two-bit","Helios","Homsar","Due"];
+    static List<String> threeNames  = <String>["Trace","Tree","Henry","Frenchie","Link","Hattrick","Charm","Tethera","Bronze","Shamrock","Tryhard","Marc","Dry","Ill","Troika","Leash"];
+    static List<String> fourNames  = <String>["Clover","Square","Fore","Sidhe","Beryl","Avril","Caltrop","Ivy","Quarry","Little Joe","Tetra","Fire","Sedan","Paws","Hooves","Car Pony","Bird"];
+    static List<String> fiveNames  = <String>["Fin","Rings","Goldboy","Plato","Sense","Byron","Johnny","Pimp","Boron","Hierophant","May","Skin","Quint","Punch","Thunderbird","Pent","Phoebe","Sink"];
+    static List<String> sixNames  = <String>["Die","Sez","Goose","Buzz","Juan","Seraph","Diamond","Sethera","Depressio","Carb","Lover","Juno","Hex","Sis","Captain Hicks"];
+    static List<String> sevenNames  = <String>["Crowbar","Boomerang","Lucky","Heaven","Halloweener","Nitro","Bond","Chariot","Julius","Hep","Doc","Swan","Emerald","Set","Tujuh","Yeti","Bay"];
+    static List<String> eightNames  = <String>["Snowman","Spider","Stanley","Milkmaid","Octopus","Brianrietta","Ox","Augustus","Octane","Octavia","Figure","Hourglass","Ogdoad","Ashcan","Tam","Byte"];
+    static List<String> nineNames  = <String>["Stitch","Nein","Lady","Dancer","Dragon","Muse","Cat","Dickory","Fhqwhgads","Hermit","Cloud","Nova","Ennead","Dress","Ix","Baseball","Nina","Carolina"];
+    static List<String> tenNames  = <String>["Sawbuck","Diaz","Hamilton","Alexander","Leaper","Fingers","Neon","Dock","Trevor","Wheel","Dime","Denny","Dean","X","Decade","Tien","Deck"];
+    static List<String> elevenNames  = <String>["Matchsticks","Amp","Piper","Rep","Salt","Rocket","Duck","Yan-a-dik","Soda","Endleofan","Linebacker","Brunch","Elf","Badia"];
+    static List<String> twelveNames  = <String>["Eggs","Dozer","Drummer","Killer","Magnum","Nerve","Solar","Tan-a-dik","Magnus","Hangman","Noon","Mid-Nite"];
+    static List<String> thirteenNames  = <String>["Biscuits","Bakers","Jason","Curse","Emirp","Archimedes","Luna","Tethera-dik","Cheatachu","Al","Reaper","Friday","Long"];
+    static List<String> fourteenNames  = <String>["Quarters","Chef","Shakespear","Cyber","Babylon","Osirus","Fortress","Pethera-dik","Duckpond","Silicon","Temperance","Fortnight"];
+    static List<String> fifteenNames  = <String>["Cans","Pho","Quiche","Bonita","Mystic","Salute","Mandarin","Bumfit","Phosphorus","Devil","Rugby","Minutes","Warhol"];
+    static List<String> infinityNames  = <String>["Flowers","Soy","Wasabi","Spot","Fido","Slasher","Paints","Researcher","Librarian","The House","Eyepatch","Shanks","Machette","Gums","Nose","Max","Mad","Wedge","Biggs","Big Daddy","Coins","Shadow","Undertaker","Numbers","Jalapeno","Hard","Cocktail","Sriracha","Kerburn","Sour","Candles","Barbeque","Tojo","Szechuan","Kestik","Sweet","Ketchup","Catsup"];
     static List<String> fakeDesc = <String>["Toad Goblin","Elf","Gnome","Puppet Person","Frogman","Leprechaun"];
 
 
@@ -629,8 +629,8 @@ class Consort extends NPC {
     static void initHighHealth() {
         Map<Stat, String> ret = new Map<Stat, String>();
         ret[Stats.POWER] = "Questant";
-        ret[Stats.HEALTH] = "Anomoly";
-        ret[Stats.CURRENT_HEALTH] = "Anomoly";
+        ret[Stats.HEALTH] = "Anomaly";
+        ret[Stats.CURRENT_HEALTH] = "Anomaly";
         ret[Stats.MOBILITY] = "Guardian";
         ret[Stats.SANITY] = "Black Knight";
         ret[Stats.RELATIONSHIPS] = "Warrior";
@@ -648,7 +648,7 @@ class Consort extends NPC {
         ret[Stats.POWER] = "Scout";
         ret[Stats.HEALTH] = "Ranger";
         ret[Stats.CURRENT_HEALTH] = "Ranger";
-        ret[Stats.MOBILITY] = "Anomoly";
+        ret[Stats.MOBILITY] = "Anomaly";
         ret[Stats.SANITY] = "Archer";
         ret[Stats.RELATIONSHIPS] = "Sniper";
         ret[Stats.FREE_WILL] = "Ninja";
@@ -665,7 +665,7 @@ class Consort extends NPC {
         ret[Stats.HEALTH] = "Nun";
         ret[Stats.CURRENT_HEALTH] = "Nun";
         ret[Stats.MOBILITY] = "Sherpa";
-        ret[Stats.SANITY] = "Anomoly";
+        ret[Stats.SANITY] = "Anomaly";
         ret[Stats.RELATIONSHIPS] = "Warrior of Justice";
         ret[Stats.FREE_WILL] = "Paladin";
         ret[Stats.MIN_LUCK] = "Realist";
@@ -682,7 +682,7 @@ class Consort extends NPC {
         ret[Stats.CURRENT_HEALTH] = "Friend";
         ret[Stats.MOBILITY] = "VIP";
         ret[Stats.SANITY] = "Superstar";
-        ret[Stats.RELATIONSHIPS] = "Anomoly";
+        ret[Stats.RELATIONSHIPS] = "Anomaly";
         ret[Stats.FREE_WILL] = "Celebrity";
         ret[Stats.MIN_LUCK] = "Leech";
         ret[Stats.MAX_LUCK] = "ingenue";
@@ -699,7 +699,7 @@ class Consort extends NPC {
         ret[Stats.MOBILITY] = "Brother"; //lil brudder says 'i can do it on my own'.
         ret[Stats.SANITY] = "Con Artist";
         ret[Stats.RELATIONSHIPS] = "";
-        ret[Stats.FREE_WILL] = "Anomoly";
+        ret[Stats.FREE_WILL] = "Anomaly";
         ret[Stats.MIN_LUCK] = "Dragoon";
         ret[Stats.MAX_LUCK] = "Paladin";
         ret[Stats.ALCHEMY] = "Student";
@@ -716,7 +716,7 @@ class Consort extends NPC {
         ret[Stats.SANITY] = "Atrocity";
         ret[Stats.RELATIONSHIPS] = "Jerk";
         ret[Stats.FREE_WILL] = "Fool of Fate";
-        ret[Stats.MIN_LUCK] = "Anomoly";
+        ret[Stats.MIN_LUCK] = "Anomaly";
         ret[Stats.MAX_LUCK] = "Mirror"; //they invert how it should be
         ret[Stats.ALCHEMY] = "Idiot";
         ret[Stats.SBURB_LORE] = "Villager";
@@ -734,7 +734,7 @@ class Consort extends NPC {
         ret[Stats.RELATIONSHIPS] = "Bastard";
         ret[Stats.FREE_WILL] = "Debutante";
         ret[Stats.MIN_LUCK] = "Jester";
-        ret[Stats.MAX_LUCK] = "Anomoly";
+        ret[Stats.MAX_LUCK] = "Anomaly";
         ret[Stats.ALCHEMY] = "Clown";
         ret[Stats.SBURB_LORE] = "Fool";
         _titles[Stats.MAX_LUCK] = ret;
@@ -752,7 +752,7 @@ class Consort extends NPC {
         ret[Stats.FREE_WILL] = "Automaton";
         ret[Stats.MIN_LUCK] = "Apprentice";
         ret[Stats.MAX_LUCK] = "Disaster";
-        ret[Stats.ALCHEMY] = "Anomoly";
+        ret[Stats.ALCHEMY] = "Anomaly";
         ret[Stats.SBURB_LORE] = "Alchemist";
         _titles[Stats.ALCHEMY] = ret;
     }
@@ -770,7 +770,7 @@ class Consort extends NPC {
         ret[Stats.MIN_LUCK] = "Warlock";
         ret[Stats.MAX_LUCK] = "Wizard";
         ret[Stats.ALCHEMY] = "Mage";
-        ret[Stats.SBURB_LORE] = "Anomoly";
+        ret[Stats.SBURB_LORE] = "Anomaly";
         _titles[Stats.SBURB_LORE] = ret;
     }
 
